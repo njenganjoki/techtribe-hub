@@ -28,40 +28,94 @@ import {
 const Index = () => {
   const courses = [
     {
-      title: "Coding",
-      description: "Learn HTML, CSS, JavaScript, and Python through fun, interactive projects.",
+      title: "HTML & CSS for Beginners",
+      description: "Start your web development journey with the fundamentals of HTML and CSS.",
       icon: Code,
-      color: "bg-tech-cyan"
-    },
-    {
-      title: "Graphic Design",
-      description: "Master Canva and Photoshop basics to create stunning visual content.",
-      icon: Palette,
-      color: "bg-tech-purple"
-    },
-    {
-      title: "Video Editing",
-      description: "From beginner to intermediate video editing skills for content creation.",
-      icon: Video,
-      color: "bg-tech-pink"
-    },
-    {
-      title: "Website Creation",
-      description: "Build amazing websites using WordPress and modern web technologies.",
-      icon: Globe,
       color: "bg-primary"
     },
     {
-      title: "IT Skills",
-      description: "Computer basics, typing, troubleshooting, and essential digital literacy.",
-      icon: Monitor,
+      title: "JavaScript Essentials",
+      description: "Learn the programming language that powers the modern web.",
+      icon: Zap,
+      color: "bg-tech-cyan"
+    },
+    {
+      title: "Python Programming for Kids",
+      description: "Introduction to programming with Python through games and creative projects.",
+      icon: Users,
+      color: "bg-tech-purple"
+    },
+    {
+      title: "Graphic Design with Canva & Photoshop",
+      description: "Create stunning visuals with industry-standard design tools.",
+      icon: Palette,
+      color: "bg-tech-pink"
+    },
+    {
+      title: "Video Editing Basics",
+      description: "Master CapCut, Canva, and Filmora for professional video content creation.",
+      icon: Video,
       color: "bg-tech-orange"
     },
     {
-      title: "Digital Marketing",
-      description: "Social media, content creation, and branding basics for the digital age.",
-      icon: TrendingUp,
+      title: "WordPress Website Creation",
+      description: "Build professional websites without coding using WordPress.",
+      icon: Globe,
       color: "bg-accent"
+    },
+    {
+      title: "IT Skills for Beginners",
+      description: "Computer basics, typing skills, and essential troubleshooting techniques.",
+      icon: Monitor,
+      color: "bg-primary"
+    },
+    {
+      title: "Digital Marketing Fundamentals",
+      description: "Social media marketing, content creation, and digital branding strategies.",
+      icon: TrendingUp,
+      color: "bg-tech-cyan"
+    },
+    {
+      title: "Google Workspace Essentials",
+      description: "Master Google Docs, Sheets, Slides, and collaborative productivity tools.",
+      icon: Users,
+      color: "bg-tech-purple"
+    },
+    {
+      title: "Robotics & Electronics Basics",
+      icon: Monitor,
+      description: "Introduction to robotics, circuits, and basic electronics for young innovators.",
+      color: "bg-tech-pink"
+    },
+    {
+      title: "Mobile App Development",
+      description: "Create your first mobile apps using beginner-friendly development tools.",
+      icon: Users,
+      color: "bg-tech-orange"
+    },
+    {
+      title: "Cybersecurity Awareness",
+      description: "Learn digital safety, password security, and online protection fundamentals.",
+      icon: Users,
+      color: "bg-accent"
+    },
+    {
+      title: "AI & Chatbot Creation Basics",
+      description: "Explore artificial intelligence and build your own simple chatbots.",
+      icon: Zap,
+      color: "bg-primary"
+    },
+    {
+      title: "Gaming & Scratch Programming",
+      description: "Create interactive games and animations using Scratch programming.",
+      icon: Users,
+      color: "bg-tech-cyan"
+    },
+    {
+      title: "Presentation & Public Speaking with Technology",
+      description: "Enhance presentation skills using digital tools and modern techniques.",
+      icon: Users,
+      color: "bg-tech-purple"
     }
   ];
 
