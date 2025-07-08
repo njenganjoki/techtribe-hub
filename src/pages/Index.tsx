@@ -304,7 +304,28 @@ const Index = () => {
       {/* Registration Form Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <RegistrationForm />
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-hero bg-clip-text text-transparent">
+              Join TechTribe Today!
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Start your tech journey with us. Fill out the form below to enroll.
+            </p>
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="text-lg px-8 py-4"
+              asChild
+            >
+              <a 
+                href="https://forms.gle/pf1ogyFW8mthdkHQA" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Join TechTribe Now!
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
