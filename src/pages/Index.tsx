@@ -158,9 +158,11 @@ const Index = () => {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <Code className="w-5 h-5 text-white" />
-            </div>
+            <img 
+              src="/lovable-uploads/26d6c9c8-2050-4e86-bc41-fb0e438d93e2.png" 
+              alt="TechTribe Logo" 
+              className="w-8 h-8"
+            />
             <span className="text-xl font-bold bg-gradient-hero bg-clip-text text-transparent">
               TechTribe
             </span>
@@ -479,9 +481,11 @@ const Index = () => {
       <footer className="bg-foreground text-background py-12">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <Code className="w-5 h-5 text-white" />
-            </div>
+            <img 
+              src="/lovable-uploads/26d6c9c8-2050-4e86-bc41-fb0e438d93e2.png" 
+              alt="TechTribe Logo" 
+              className="w-8 h-8"
+            />
             <span className="text-xl font-bold">TechTribe Learning Hub</span>
           </div>
           <p className="text-background/80 mb-4">
