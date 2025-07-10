@@ -403,9 +403,19 @@ const Index = () => {
                     Stay connected with our community and see daily updates from our amazing students!
                   </p>
                   <div className="grid grid-cols-2 gap-4">
-                    <Button variant="outline" className="h-16 flex-col gap-2 hover:bg-tech-pink hover:text-white hover:border-tech-pink">
-                      <Instagram className="w-6 h-6" />
-                      <span>Instagram</span>
+                    <Button 
+                      variant="outline" 
+                      className="h-16 flex-col gap-2 hover:bg-tech-pink hover:text-white hover:border-tech-pink"
+                      asChild
+                    >
+                      <a 
+                        href="https://www.instagram.com/tec.htribe" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <Instagram className="w-6 h-6" />
+                        <span>Instagram</span>
+                      </a>
                     </Button>
                     <Button variant="outline" className="h-16 flex-col gap-2 hover:bg-primary hover:text-primary-foreground">
                       <Facebook className="w-6 h-6" />
