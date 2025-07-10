@@ -188,11 +188,29 @@ const Index = () => {
             Where Passion Meets Technology
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
-            <Button variant="secondary" size="lg" className="text-lg px-8 py-4">
-              Join Now
+            <Button 
+              variant="secondary" 
+              size="lg" 
+              className="text-lg px-8 py-4"
+              asChild
+            >
+              <a 
+                href="https://forms.gle/pf1ogyFW8mthdkHQA" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Join Now
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 bg-white/10 border-white/30 text-white hover:bg-white hover:text-primary">
-              Explore Our Courses
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="text-lg px-8 py-4 bg-white/10 border-white/30 text-white hover:bg-white hover:text-primary"
+              asChild
+            >
+              <a href="#courses">
+                Explore Our Courses
+              </a>
             </Button>
           </div>
         </div>
