@@ -440,7 +440,7 @@ const Index = () => {
             Where Passion Meets Technology
           </p>
           <p className="text-background/60 text-sm">
-            © 2024 TechTribe Learning Hub. All rights reserved.
+            © 2025 TechTribe Learning Hub. All rights reserved.
           </p>
         </div>
       </footer>
