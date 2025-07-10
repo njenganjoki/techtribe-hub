@@ -415,9 +415,19 @@ const Index = () => {
                       <Youtube className="w-6 h-6" />
                       <span>YouTube</span>
                     </Button>
-                    <Button variant="outline" className="h-16 flex-col gap-2 hover:bg-tech-cyan hover:text-white hover:border-tech-cyan">
-                      <Phone className="w-6 h-6" />
-                      <span>WhatsApp</span>
+                    <Button 
+                      variant="outline" 
+                      className="h-16 flex-col gap-2 hover:bg-tech-cyan hover:text-white hover:border-tech-cyan"
+                      asChild
+                    >
+                      <a 
+                        href="https://wa.me/254799842714" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <Phone className="w-6 h-6" />
+                        <span>WhatsApp</span>
+                      </a>
                     </Button>
                   </div>
                 </div>
