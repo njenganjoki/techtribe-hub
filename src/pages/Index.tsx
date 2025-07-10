@@ -421,9 +421,19 @@ const Index = () => {
                       <Facebook className="w-6 h-6" />
                       <span>Facebook</span>
                     </Button>
-                    <Button variant="outline" className="h-16 flex-col gap-2 hover:bg-accent hover:text-accent-foreground">
-                      <Youtube className="w-6 h-6" />
-                      <span>YouTube</span>
+                    <Button 
+                      variant="outline" 
+                      className="h-16 flex-col gap-2 hover:bg-accent hover:text-accent-foreground"
+                      asChild
+                    >
+                      <a 
+                        href="https://www.youtube.com/@techtribe-e3y" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <Youtube className="w-6 h-6" />
+                        <span>YouTube</span>
+                      </a>
                     </Button>
                     <Button 
                       variant="outline" 
