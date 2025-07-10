@@ -360,7 +360,7 @@ const Index = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold">Email Us</h3>
-                        <p className="text-muted-foreground">hello@techtribe.learning</p>
+                        <p className="text-muted-foreground">techtribe3649@gmail.com</p>
                       </div>
                     </div>
                   </CardContent>
