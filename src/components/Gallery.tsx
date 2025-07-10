@@ -89,14 +89,34 @@ export function Gallery() {
           Want to see more? Follow us on social media for daily updates from our tech community!
         </p>
         <div className="flex justify-center gap-4">
-          <Button variant="outline" className="hover:bg-tech-purple hover:text-white hover:border-tech-purple">
-            Instagram
+          <Button 
+            variant="outline" 
+            className="hover:bg-tech-purple hover:text-white hover:border-tech-purple"
+            asChild
+          >
+            <a 
+              href="https://www.instagram.com/tec.htribe" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
           </Button>
           <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground">
             Facebook
           </Button>
-          <Button variant="outline" className="hover:bg-accent hover:text-accent-foreground">
-            YouTube
+          <Button 
+            variant="outline" 
+            className="hover:bg-accent hover:text-accent-foreground"
+            asChild
+          >
+            <a 
+              href="https://www.youtube.com/@techtribe-e3y" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              YouTube
+            </a>
           </Button>
         </div>
       </div>
