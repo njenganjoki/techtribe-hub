@@ -322,7 +322,7 @@ const Index = () => {
       </section>
 
       {/* Registration Form Section */}
-      <section className="py-20">
+      <section id="registration" className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-hero bg-clip-text text-transparent">

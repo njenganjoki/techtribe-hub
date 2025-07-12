@@ -10,6 +10,13 @@ interface CourseCardProps {
 }
 
 export function CourseCard({ title, description, icon: Icon, color }: CourseCardProps) {
+  const handleLearnMore = () => {
+    const registrationSection = document.getElementById('registration');
+    if (registrationSection) {
+      registrationSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <Card className="group cursor-pointer bg-gradient-card border-0 shadow-card hover:shadow-glow transition-all duration-300 hover:-translate-y-2">
       <CardHeader className="text-center">
@@ -22,7 +29,11 @@ export function CourseCard({ title, description, icon: Icon, color }: CourseCard
         <CardDescription className="text-muted-foreground mb-4">
           {description}
         </CardDescription>
-        <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
+        <Button 
+          variant="outline" 
+          className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300"
+          onClick={handleLearnMore}
+        >
           Learn More
         </Button>
       </CardContent>
